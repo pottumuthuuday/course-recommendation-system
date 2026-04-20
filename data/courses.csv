@@ -1,0 +1,11 @@
+course_id,Title,Skills,Description,Category,Rating
+1,Python Basics,python programming beginner,learn python from scratch,Programming,4.5
+2,Advanced Python,python advanced coding,deep python concepts,Programming,4.7
+3,Web Development,html css javascript,build websites,Web,4.3
+4,Machine Learning,python ml ai,data science and ML,AI,4.8
+5,Data Science,python pandas numpy,data analysis,Data,4.6
+6,Deep Learning,ai neural networks,deep learning concepts,AI,4.9
+7,Frontend Development,html css react,build UI websites,Web,4.4
+8,Backend Development,python django flask,server-side development,Web,4.5
+9,Data Visualization,python matplotlib seaborn,visualize data,Data,4.2
+10,Artificial Intelligence,ai ml deep learning,intro to AI,AI,4.7
