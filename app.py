@@ -44,9 +44,11 @@ if st.button("🚀 Recommend"):
     for i, r in enumerate(results):
         course_data = df[df['Title'] == r]
 
-        with cols[i % 2]:
-            st.markdown(f"""
-            ### 🎓 {r}
-            **Category:** {course_data['Category'].values[0]}  
-            **Rating:** ⭐ {course_data['Rating'].values[0]}  
-            """)
+if not course_data.empty:
+    st.markdown(f"""
+    ### 🎓 {r}
+    **Category:** {course_data['Category'].values[0]}  
+    **Rating:** ⭐ {course_data['Rating'].values[0]}  
+    """)
+else:
+    st.markdown(f"### 🎓 {r}")
