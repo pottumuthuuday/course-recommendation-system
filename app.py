@@ -1,14 +1,3 @@
-from login import login
-
-if 'logged_in' not in st.session_state:
-    st.session_state['logged_in'] = False
-
-login()
-
-if not st.session_state['logged_in']:
-    st.warning("Please login to continue")
-    st.stop()
-    
 import streamlit as st
 import pandas as pd
 from recommender import recommend
